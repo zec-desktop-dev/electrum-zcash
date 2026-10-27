@@ -1,30 +1,39 @@
 # Electrum ZEC
 
-Electrum-based desktop wallet for Zcash (ZEC).
+![Zcash](https://img.shields.io/badge/Zcash-ZEC-F4B728?style=flat-square) ![Platform](https://img.shields.io/badge/Platform-Desktop-555?style=flat-square) ![Status](https://img.shields.io/badge/Source-Open-555?style=flat-square)
+
+Desktop wallet project for Zcash (ZEC), following the lightweight Electrum client model.
 
 ## Overview
 
-Electrum ZEC provides a desktop interface for managing ZEC transactions and wallet addresses.
+- **Network:** Zcash
+- **Asset:** ZEC
+- **Client:** Lightweight desktop wallet
+- **Architecture:** Electrum-style server connectivity
+- **Scope:** Wallet management and ZEC transactions
 
-## Supported Platforms
+## Wallet
 
-- Windows
-- Linux
+- Create and restore wallets
+- Manage receiving addresses
+- Prepare, sign, and broadcast transactions
+- View balances and transaction history
+- Connect to compatible wallet servers
 
-## Installation
-
-1. Open the [Releases](../../releases) page.
-2. Download the build for your operating system.
-3. Launch the application.
+Feature availability depends on the implementation. In particular, transparent and shielded Zcash transactions require different protocol support.
 
 ## Development
 
-Source code and project files are maintained in this repository.
+Clone the repository and follow the build instructions provided with the source tree. Dependencies, launcher commands, and supported platforms should be checked against the current release.
 
-## Issues
+## Releases
 
-Use [GitHub Issues](../../issues) to report bugs and installation problems.
+Desktop builds and version notes are published under [Releases](../../releases) when available. Verify release assets and checksums before use.
+
+## Security
+
+Keep wallet recovery material offline. Never share seed phrases or private keys. Review the source and verify binaries before using the wallet with funds.
 
 ## License
 
-See the repository's license file for details.
+See the repository's license file for the applicable terms.
