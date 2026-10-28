@@ -44,7 +44,7 @@ The project follows an Electrum-style separation between wallet logic, network c
 
 ## Security
 
-Wallet keys and recovery phrases must remain private. Verify release files before running them, and test the wallet with a small amount before transferring significant funds.
+Wallet keys and recovery phrases must remain private. Test the wallet with a small amount before transferring significant funds.
 
 ## License
 
